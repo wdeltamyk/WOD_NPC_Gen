@@ -318,14 +318,14 @@ class WerewolfCharacterGenerator:
 
     def generate_skills(self, skill_focuses, importance):
         base_points = {
-            "Cub": 20, "Cliath": 25, "Fostern": 30, "Adren": 35,
-            "Athro": 40, "Elder": 45, "Legendary": 50
+            "Thug": 20, "Minor": 25, "Important": 30, "Boss": 35,
+            "Big Bad": 40, "Legendary": 45
         }
         total_points = base_points.get(importance, 25)
 
         skills = {skill: 0 for skill in self.skills_data["skills"]}
 
-        # Categorize skills
+        # Categorize skills if applicable (assuming skills can be categorized)
         skill_categories = {
             "Physical": ["Athletics", "Brawl", "Drive", "Firearms", "Larceny", "Stealth", "Survival"],
             "Social": ["Animal Ken", "Etiquette", "Insight", "Intimidation", "Leadership", "Performance", "Persuasion", "Streetwise", "Subterfuge"],
@@ -344,6 +344,9 @@ class WerewolfCharacterGenerator:
             if skills[skill] < 5:
                 skills[skill] += 1
                 total_points -= 1
+
+        # Remove skills with 0 points
+        return {k: v for k, v in skills.items() if v > 0}
 
     def generate_gifts(self, auspice, tribe, breed, importance):
         # Placeholder function to generate Gifts based on auspice, tribe, and breed

@@ -324,13 +324,13 @@ class VTMCharacterGenerator:
     def generate_skills(self, skill_focuses, importance):
         base_points = {
             "Thug": 20, "Minor": 25, "Important": 30, "Boss": 35,
-            "Big Bad": 40, "Ancient": 45, "Mythical": 50
+            "Big Bad": 40, "Legendary": 45
         }
         total_points = base_points.get(importance, 25)
 
         skills = {skill: 0 for skill in self.skills_data["skills"]}
 
-        # Categorize skills if applicable
+        # Categorize skills if applicable (assuming skills can be categorized)
         skill_categories = {
             "Physical": ["Athletics", "Brawl", "Drive", "Firearms", "Larceny", "Stealth", "Survival"],
             "Social": ["Animal Ken", "Etiquette", "Insight", "Intimidation", "Leadership", "Performance", "Persuasion", "Streetwise", "Subterfuge"],
@@ -349,6 +349,9 @@ class VTMCharacterGenerator:
             if skills[skill] < 5:
                 skills[skill] += 1
                 total_points -= 1
+
+        # Remove skills with 0 points
+        return {k: v for k, v in skills.items() if v > 0}
 
     def generate_disciplines(self, clan, diablerist, importance):
         try:

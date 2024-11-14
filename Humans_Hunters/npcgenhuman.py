@@ -320,7 +320,7 @@ class HunterCharacterGenerator:
 
         skills = {skill: 0 for skill in self.skills_data["skills"]}
 
-        # Categorize skills if applicable
+        # Categorize skills if applicable (assuming skills can be categorized)
         skill_categories = {
             "Physical": ["Athletics", "Brawl", "Drive", "Firearms", "Larceny", "Stealth", "Survival"],
             "Social": ["Animal Ken", "Etiquette", "Insight", "Intimidation", "Leadership", "Performance", "Persuasion", "Streetwise", "Subterfuge"],
@@ -339,6 +339,9 @@ class HunterCharacterGenerator:
             if skills[skill] < 5:
                 skills[skill] += 1
                 total_points -= 1
+
+        # Remove skills with 0 points
+        return {k: v for k, v in skills.items() if v > 0}
 
     def generate_edges_and_perks(self, creed, importance):
         # Based on the creed, generate edges and perks
