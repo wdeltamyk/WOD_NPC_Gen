@@ -320,7 +320,7 @@ class HunterCharacterGenerator:
 
         skills = {skill: 0 for skill in self.skills_data["skills"]}
 
-        # Categorize skills if applicable (assuming skills can be categorized)
+        # Categorize skills if applicable
         skill_categories = {
             "Physical": ["Athletics", "Brawl", "Drive", "Firearms", "Larceny", "Stealth", "Survival"],
             "Social": ["Animal Ken", "Etiquette", "Insight", "Intimidation", "Leadership", "Performance", "Persuasion", "Streetwise", "Subterfuge"],
