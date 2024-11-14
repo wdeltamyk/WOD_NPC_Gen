@@ -1,0 +1,454 @@
+{
+  "Disciplines": {
+    "Animalism": {
+      "type": "Mental",
+      "threat": 2,
+      "resonance": "Animal Blood",
+      "skills": [
+        ["Bond Famulus", "Sense the Beast"],
+        ["Feral Whispers", "Atavism", "Animal Messenger"],
+        [
+          "Animal Succulence",
+          "Quell the Beast",
+          "Scent of Prey",
+          "Unliving Hive",
+          "Messenger's Command",
+          "Plague of Beasts"
+        ],
+        ["Subsume Spirit", "Sway the Flock"],
+        ["Animal Dominion", "Drawing Out the Beast", "Coax the Bestial Temper"]
+      ]
+    },
+    "Auspex": {
+      "type": "Mental",
+      "threat": 1,
+      "resonance": "Phlegmatic",
+      "skills": [
+        ["Heightened Senses", "Sense the Unseen"],
+        [
+          "Premonition",
+          "Obeah",
+          "Unerring Pursuit",
+          "Panacea",
+          "Reveal Temperament"
+        ],
+        ["Eyes of Beasts", "Scry the Soul", "Share the Senses", "Fatal Flaw"],
+        ["Spirit's Touch"],
+        ["Unburdening the Bestial Soul"]
+      ]
+    },
+    "Blood Sorcery": {
+      "type": "Sorcery",
+      "threat": 3,
+      "resonance": "Sanguine",
+      "skills": [
+        [
+          "A Taste For Blood",
+          "Corrosive Vitae",
+          "Koldunic Sorcery",
+          "Shape the Sanguine Sacrament"
+        ],
+        ["Extinguish Vitae", "Scour Secrets"],
+        [
+          "Blood of Potency",
+          "Ripples of the Heart",
+          "Scorpion's Touch",
+          "Transitive Bond"
+        ],
+        ["Blood Aegis", "Theft of Vitae"],
+        ["Baal's Caress", "Cauldron of Blood", "Reclamation of Vitae"]
+      ]
+    },
+    "Celerity": {
+      "type": "Physical",
+      "threat": 3,
+      "resonance": "Choleric",
+      "skills": [
+        ["Cat's Grace", "Rapid Reflexes"],
+        ["Fleetness", "Rush Job"],
+        ["Blink", "Traversal", "Weaving"],
+        [
+          "Draught of Elegance",
+          "Unerring Aim",
+          "Blurred Momentum",
+          "Unseen Strike"
+        ],
+        ["Lightning Strike", "Split Second"]
+      ]
+    },
+    "Dominate": {
+      "type": "Mental",
+      "threat": 1,
+      "resonance": "Phlegmatic",
+      "skills": [
+        ["Cloud Memory", "Compel", "Slavish Devotion"],
+        ["Mesmerize", "Dementation", "Domitor's Favor"],
+        ["The Forgetful Mind", "Submerged Directive"],
+        [
+          "Ancestral Dominion",
+          "Rationalize",
+          "Tabula Rasa",
+          "Implant Suggestion"
+        ],
+        ["Mass Manipulation", "Terminal Decree "]
+      ]
+    },
+    "Fortitude": {
+      "type": "Physical",
+      "threat": 2,
+      "resonance": "Melancholic",
+      "skills": [
+        ["Resilience", "Unswayable Mind"],
+        [
+          "Enduring Beasts",
+          "Obdurate",
+          "Toughness",
+          "Earth's Perseverance",
+          "Invigorating Vitae"
+        ],
+        [
+          "Defy Bane",
+          "Fortify the Inner Facade",
+          "Seal the Beast's Maw",
+          "Valeren"
+        ],
+        ["Draught of Endurance", "Shatter", "Gorgon's Scales"],
+        ["Flesh of Marble", "Prowess from Pain"]
+      ]
+    },
+    "Obfuscate": {
+      "type": "Mental",
+      "threat": 3,
+      "resonance": "Empty",
+      "skills": [
+        ["Cloak of Shadows", "Silence of Death"],
+        [
+          "Chimerstry",
+          "Doubletalk",
+          "Ghost's Passing",
+          "Mental Maze",
+          "Unseen Passage",
+          "Ventriloquism"
+        ],
+        [
+          "Fata Morgana",
+          "Ghost in the Machine",
+          "Mask of a Thousand Faces",
+          "Mask of Isolation",
+          "Mental Maze",
+          "Mind Masque"
+        ],
+        ["Conceal", "Vanish"],
+        ["Cloak the Gathering", "Imposter's Guise"]
+      ]
+    },
+    "Oblivion": {
+      "type": "Mental",
+      "threat": 1,
+      "resonance": "Melancholic",
+      "skills": [
+        [
+          "Ashes to Ashes",
+          "Binding Fetter",
+          "Oblivion's Sight",
+          "Shadow Cloak"
+        ],
+        [
+          "Arms of Ahriman",
+          "Fatal Prediction",
+          "Shadow Cast",
+          "Where the Veil Thins"
+        ],
+        [
+          "Aura of Decay",
+          "Passion Feast",
+          "Shadow Perspective",
+          "Touch of Oblivion"
+        ],
+        ["Necrotic Plague", "Stygian Shroud", "Umbrous Clutch"],
+        [
+          "Shadow Step",
+          "Skuld Fulfilled",
+          "Tenebrous Avatar",
+          "Withering Spirit "
+        ]
+      ]
+    },
+    "Potence": {
+      "type": "Physical",
+      "threat": 3,
+      "resonance": "Choleric",
+      "skills": [
+        ["Lethal Body", "Soaring Leap"],
+        ["Prowess", "Relentless Grasp"],
+        ["Brutal Feed", "Spark of Rage", "Uncanny Grip", "Wrecker"],
+        ["Draught of Might", "Crash Down"],
+        ["Subtle Hammer", "Fist of Caine", "Earth Shock "]
+      ]
+    },
+    "Presence": {
+      "type": "Mental",
+      "threat": 2,
+      "resonance": "Sanguine",
+      "skills": [
+        ["Awe", "Daunt", "Eyes of the Serpent"],
+        ["Lingering Kiss", "Melpominee"],
+        [
+          "Clear the Field",
+          "Dread Gaze",
+          "Entrancement",
+          "Thrown Voice",
+          "True Love's Face"
+        ],
+        [
+          "Irresistible Voice",
+          "Magnum Opus",
+          "Summon",
+          "Suffuse the Edifice",
+          "Wingman"
+        ],
+        ["Majesty", "Star Magnetism"]
+      ]
+    },
+    "Protean": {
+      "type": "Physical",
+      "threat": 4,
+      "resonance": "Animal Blood",
+      "skills": [
+        ["Eyes of the Beast", "Weight of the Feather"],
+        ["Feral Weapons", "Serpent's Kiss", "The False Sip", "Vicissitude"],
+        ["Earth Meld", "Flesh Crafting", "Shapechange", "Visceral Absorption"],
+        ["Horrid Form", "Metamorphosis"],
+        [
+          "One With the Land",
+          "Mist Form",
+          "The Heart of Darkness",
+          "The Unfettered Heart"
+        ]
+      ]
+    },
+
+    "Thin-blood Alchemy": {
+      "type": "Alchemical",
+      "threat": 2,
+      "resonance": "Varies",
+      "skills": [
+        [
+          "Far Reach",
+          "Gaoler's Bane",
+          "Haze",
+          "Mercurian Tongue",
+          "Plug-In",
+          "Portable Shade"
+        ],
+        [
+          "Blood of Mandagloire",
+          "Counterfeit - Level 1",
+          "Envelop",
+          "Friend's List",
+          "Mirror of Trust",
+          "Red's Flamin' Hot Sauce"
+        ],
+        [
+          "Chemically-Induced Flashback",
+          "Concoct Ashe",
+          "Counterfeit - Level 2",
+          "Defractionate",
+          "Fang-Stinger",
+          "Freezer Fluid",
+          "Mandagloire",
+          "On-Demand Sunburn",
+          "Rumor",
+          "Profane Heiros Gamos",
+          "Stay the Falling Sand",
+          "Tank"
+        ],
+        [
+          "Airborne Momentum",
+          "Counterfeit - Level 3",
+          "Discipline Channeling",
+          "Hollow Leg",
+          "Short Circuit",
+          "Toxic Personality"
+        ],
+        [
+          "Awaken the Sleeper",
+          "Counterfeit - Level 4",
+          "Flowering Amaranth",
+          "Moment of Clarity"
+        ]
+      ]
+    },
+    "Athanor Corporis": {
+      "type": "Alchemical",
+      "threat": 2,
+      "resonance": "Varies",
+      "skills": [
+        [
+          "Body Paint",
+          "Checkout Time",
+          "Elevate",
+          "Food Stain",
+          "Far Reach",
+          "Gaoler's Bane",
+          "Haze",
+          "Portable Shade",
+          "Speak From the Heart"
+        ],
+        [
+          "Advanced Torpor",
+          "Blacklight Surprise",
+          "Blood of Mandagloire",
+          "Blue State",
+          "Counterfeit - Level 1",
+          "Envelop",
+          "Mirror of Trust",
+          "Red's Flamin' Hot Sauce"
+        ],
+        [
+          "Chemically-Induced Flashback",
+          "Concoct Ashe",
+          "Counterfeit - Level 2",
+          "Defractionate",
+          "Diamond Skin",
+          "Fang-Stinger",
+          "Fireskin",
+          "Freezer Fluid",
+          "Hospital Chains",
+          "Martian Purity",
+          "Mask Off",
+          "On-Demand Sunburn",
+          "Profane Heiros Gamos",
+          "Stay the Falling Sand",
+          "TLC",
+          "Troll the Pious"
+        ],
+        [
+          "Airborne Momentum",
+          "Copycat",
+          "Counterfeit - Level 3",
+          "Discipline Channeling",
+          "Half-Living Conductor",
+          "Hollow Leg",
+          "Red State",
+          "Vitae MSG"
+        ],
+        ["Awaken the Sleeper", "Counterfeit - Level 4", "Saturn's Flux"]
+      ]
+    },
+    "Calcinatio": {
+      "type": "Alchemical",
+      "threat": 2,
+      "resonance": "Varies",
+      "skills": [
+        [
+          "Body Paint",
+          "Checkout Time",
+          "Elevate",
+          "Food Stain",
+          "Far Reach",
+          "Gaoler's Bane",
+          "Haze",
+          "Portable Shade",
+          "Speak From the Heart"
+        ],
+        [
+          "Advanced Torpor",
+          "Blacklight Surprise",
+          "Blood of Mandagloire",
+          "Blue State",
+          "Counterfeit - Level 1",
+          "Envelop",
+          "Mirror of Trust",
+          "Red's Flamin' Hot Sauce"
+        ],
+        [
+          "Chemically-Induced Flashback",
+          "Concoct Ashe",
+          "Counterfeit - Level 2",
+          "Defractionate",
+          "Diamond Skin",
+          "Fang-Stinger",
+          "Fireskin",
+          "Freezer Fluid",
+          "Hospital Chains",
+          "Martian Purity",
+          "Mask Off",
+          "On-Demand Sunburn",
+          "Profane Heiros Gamos",
+          "Stay the Falling Sand",
+          "TLC",
+          "Troll the Pious"
+        ],
+        [
+          "Airborne Momentum",
+          "Copycat",
+          "Counterfeit - Level 3",
+          "Discipline Channeling",
+          "Half-Living Conductor",
+          "Hollow Leg",
+          "Red State",
+          "Vitae MSG"
+        ],
+        ["Awaken the Sleeper", "Counterfeit - Level 4", "Saturn's Flux"]
+      ]
+    },
+    "Fixatio": {
+      "type": "Alchemical",
+      "threat": 2,
+      "resonance": "Varies",
+      "skills": [
+        [
+          "Body Paint",
+          "Checkout Time",
+          "Elevate",
+          "Food Stain",
+          "Far Reach",
+          "Gaoler's Bane",
+          "Haze",
+          "Portable Shade",
+          "Speak From the Heart"
+        ],
+        [
+          "Advanced Torpor",
+          "Blacklight Surprise",
+          "Blood of Mandagloire",
+          "Blue State",
+          "Counterfeit - Level 1",
+          "Envelop",
+          "Mirror of Trust",
+          "Red's Flamin' Hot Sauce"
+        ],
+        [
+          "Chemically-Induced Flashback",
+          "Concoct Ashe",
+          "Counterfeit - Level 2",
+          "Defractionate",
+          "Diamond Skin",
+          "Fang-Stinger",
+          "Fireskin",
+          "Freezer Fluid",
+          "Hospital Chains",
+          "Martian Purity",
+          "Mask Off",
+          "On-Demand Sunburn",
+          "Profane Heiros Gamos",
+          "Stay the Falling Sand",
+          "TLC",
+          "Troll the Pious"
+        ],
+        [
+          "Airborne Momentum",
+          "Copycat",
+          "Counterfeit - Level 3",
+          "Discipline Channeling",
+          "Half-Living Conductor",
+          "Hollow Leg",
+          "Red State",
+          "Vitae MSG"
+        ],
+        ["Awaken the Sleeper", "Counterfeit - Level 4", "Saturn's Flux"]
+      ]
+    }
+  }
+}
